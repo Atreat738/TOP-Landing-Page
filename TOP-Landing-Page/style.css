@@ -4,9 +4,73 @@ html {
     padding: 0;
 }
 
-
 header {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
 }
 
+header h4 {
+    font-size: 24px;
+}
+
+header ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+}
+
+header ul li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+#section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: 0;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+#section1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signupdiv {
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+}
+
+h1 {
+    font-size: 44px;
+    margin-top: 0;
+}
+
+#signupbtn1 {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+
+#s1img {
+    background-color: grey;
+    height: 300px;
+    line-height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+}
+
+button:hover {
+    cursor: pointer;
+}
