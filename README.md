@@ -1,0 +1,1 @@
+This is an attempt to reproduce the static landing page from The Odin Project in HTML and CSS.
