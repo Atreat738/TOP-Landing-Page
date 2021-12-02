@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: space-around;
     margin: 0;
+    height: 2.5%;
 }
 
 header h4 {
@@ -30,6 +31,7 @@ header ul li a {
 #section1 {
     background-color: #1F2937;
     color: #F9FAF8;
+    height: 25%;
     margin-top: 0;
     display: flex;
     padding-bottom: 100px;
@@ -73,4 +75,51 @@ h1 {
 
 button:hover {
     cursor: pointer;
+}
+
+#section2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2img {
+    border: 3px solid #3882F6;
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+#imagescontainer {
+    border: 2px solid pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagescontainer figure {
+    border: 2px solid lime;
+}
+
+#section3 {
+    background-color: #E5E7Eb;
+    color: #1F2937;
+    height: 25%;
+    font-size: 36px;
+    
+}
+
+#section4 {
+    height: 20%;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 2.5%;
+    text-align: center;
 }
