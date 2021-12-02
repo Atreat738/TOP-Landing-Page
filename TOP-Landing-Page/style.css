@@ -130,6 +130,42 @@ button:hover {
 
 #section4 {
     height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#s4subcontainer {
+    width: 75%;
+    border-radius: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+}
+
+#s4textdiv {
+    max-width: 40%;
+}
+
+#s4textdiv h4 {
+    margin-bottom: 0;
+}
+#s4textdiv p {
+    margin-top: 0;
+}
+
+#s4button {
+    border: 2.5px solid white;
+    border-radius: 10px;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 6px 22.5px;
+    background-color: transparent;
+    color: #F9FAF8;
+
 }
 
 footer {
