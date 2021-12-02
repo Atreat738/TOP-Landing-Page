@@ -113,7 +113,19 @@ button:hover {
     color: #1F2937;
     height: 25%;
     font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+
+#section3 figure {
+    max-width: 55%;
+}
+
+#s3figcap {
+    float: right;
+    font-size: 0.75em;
 }
 
 #section4 {
